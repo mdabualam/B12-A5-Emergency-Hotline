@@ -16,13 +16,10 @@ document.getElementById("call-1")
     const coinCount = parseInt(document.getElementById('coin-count').innerText);
     const newCoinCount = parseInt(coinCount - 20);
     if(coinCount < 20){ 
-        alert("⚠️ Insufficient coins, minimum 20 coins are required to call.");
+        alert("❌ Insufficient coins, minimum 20 coins are required to call.");
         return;
     };
     document.getElementById('coin-count').innerText = newCoinCount;
-
-
-
 
 })
 
